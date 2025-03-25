@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart'; // Correct path to your Onboarding widget
-import 'components/login_page.dart';
+
 import 'package:fewaste/theme/theme.dart';
+
+import 'on_bording_screen.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Login Page',
       theme: AppTheme.darkTheme,
-      home: const LoginPage(),
+      home: const OnBordingScreen(),
     );
   }
 }
